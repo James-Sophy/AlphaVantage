@@ -1,5 +1,5 @@
 {
-  "name": "alphavantage",
+  "name": "alphavantage-fixed",
   "version": "2.3.0",
   "description": "A simple interface to the Alpha Vantage API.",
   "main": "dist/bundle.js",
@@ -21,9 +21,9 @@
   "author": "Zack Urben <zackurben@gmail.com> (http://zackurben.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zackurben/alphavantage"
+    "url": "git@github.com:James-Sophy/AlphaVantage"
   },
-  "homepage": "https://github.com/zackurben/alphavantage",
+  "homepage": "git@github.com:James-Sophy/AlphaVantage",
   "engines": {
     "node": ">=6.0.0"
   },
