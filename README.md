@@ -1,8 +1,5 @@
 # AlphaVantage
 
-[![Build Status](https://travis-ci.org/zackurben/alphavantage.svg?branch=master)](https://travis-ci.org/zackurben/alphavantage)
-[![Coverage Status](https://coveralls.io/repos/github/zackurben/alphavantage/badge.svg?branch=master)](https://coveralls.io/github/zackurben/alphavantage?branch=master)
-
 This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage.co/documentation/) hosted on [NPM](https://www.npmjs.com/package/alphavantage). I have no affiliation with AlphaVantage. This library can be used in the browser or in node since it is packaged as a UMD module.
 
 All contributions are welcome, see our [CONTRIBUTING.md](CONTRIBUTING.md)! This is an open source project under the MIT license, see [LICENSE.md](LICENSE.md) for additional information.
@@ -16,7 +13,7 @@ All contributions are welcome, see our [CONTRIBUTING.md](CONTRIBUTING.md)! This 
 ## Installation
 
 ```bash
-npm i alphavantage
+npm i alphavantage-fix
 ```
 
 ## Node.js Initialization
@@ -28,7 +25,7 @@ npm i alphavantage
  * @param {String} key
  *   Your Alpha Vantage API key.
  */
-const alpha = require('alphavantage')({ key: 'qweqweqwe' });
+const alpha = require('alphavantage-fix')({ key: 'qweqweqwe' });
 ```
 
 ## Browser Initialization
@@ -37,7 +34,7 @@ const alpha = require('alphavantage')({ key: 'qweqweqwe' });
 
 ```html
 <body>
-  <script src="path/to/alphavantage/dist/bundle.js"></script>
+  <script src="path/to/alphavantage-fix/dist/bundle.js"></script>
   <script type="application/javascript">
     /**
      * Init Alpha Vantage with your API key.

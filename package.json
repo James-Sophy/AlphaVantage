@@ -1,5 +1,5 @@
 {
-  "name": "alphavantage-fixed",
+  "name": "alphavantage-fix",
   "version": "2.3.0",
   "description": "A simple interface to the Alpha Vantage API.",
   "main": "dist/bundle.js",
