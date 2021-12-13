@@ -21,9 +21,9 @@
   "author": "Zack Urben <zackurben@gmail.com> (http://zackurben.com)",
   "license": "MIT",
   "bugs": {
-    "url": "git@github.com:James-Sophy/AlphaVantage"
+    "url": "https://github.com/James-Sophy/AlphaVantage"
   },
-  "homepage": "git@github.com:James-Sophy/AlphaVantage",
+  "homepage": "https://github.com/James-Sophy/AlphaVantage",
   "engines": {
     "node": ">=6.0.0"
   },
