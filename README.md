@@ -4,7 +4,7 @@ This is a simple wrapper around the [Alpha Vantage API](https://www.alphavantage
 
 All contributions are welcome, see our [CONTRIBUTING.md](CONTRIBUTING.md)! This is an open source project under the MIT license, see [LICENSE.md](LICENSE.md) for additional information.
 
-`This build has been fixed to work with CSV data through the use of the experimental function and adding an additional datatype: 'csv' field.`
+This build has been fixed to work with CSV data and JSON data.
 
 `All available functions with this SDK have the same parameters as listed in the the Alpha Vantage Docs, without the "function" or "apikey". Do not include the "function" or "apikey" parameters when using this library. All functions return promises with the response data.`
 
@@ -52,6 +52,11 @@ const alpha = require('alphavantage-fix')({ key: 'qweqweqwe' });
 ```javascript
 // Simple examples
 alpha.data.intraday(`msft`).then((data) => {
+  console.log(data);
+});
+
+//CSV example
+alpha.data.intraday(`msft`, `compact`, `csv`).then((data) => {
   console.log(data);
 });
 
